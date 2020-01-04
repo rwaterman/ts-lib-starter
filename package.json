@@ -1,6 +1,6 @@
 {
   "name": "ts-lib-starter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Javascript library starter for projects written in TypeScript",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -8,14 +8,14 @@
     "lib/**/*"
   ],
   "devDependencies": {
-    "@types/jest": "23.3.x",
-    "jest": "24.0.x",
-    "prettier": "1.16.x",
-    "ts-jest": "23.10.x",
-    "ts-node": "8.0.x",
-    "tslint": "5.12.x",
-    "tslint-config-prettier": "1.17.x",
-    "typescript": "3.1.x"
+    "@types/jest": "24.0.x",
+    "jest": "24.9.x",
+    "prettier": "1.19.x",
+    "ts-jest": "24.2.x",
+    "ts-node": "8.5.x",
+    "tslint": "5.20.x",
+    "tslint-config-prettier": "1.18.x",
+    "typescript": "3.2.x"
   },
   "scripts": {
     "build": "tsc",
