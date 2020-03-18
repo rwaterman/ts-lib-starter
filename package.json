@@ -8,14 +8,14 @@
     "lib/**/*"
   ],
   "devDependencies": {
-    "@types/jest": "24.0.x",
-    "jest": "24.9.x",
+    "@types/jest": "25.1.x",
+    "jest": "25.1.x",
     "prettier": "1.19.x",
-    "ts-jest": "24.2.x",
-    "ts-node": "8.5.x",
-    "tslint": "5.20.x",
+    "ts-jest": "25.2.x",
+    "ts-node": "8.6.x",
+    "tslint": "6.1.x",
     "tslint-config-prettier": "1.18.x",
-    "typescript": "3.2.x"
+    "typescript": "3.8.x"
   },
   "scripts": {
     "build": "tsc",
