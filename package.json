@@ -2,30 +2,33 @@
   "name": "ts-lib-starter",
   "version": "1.1.0",
   "description": "A Javascript library starter for projects written in TypeScript",
-  "main": "lib/index.js",
+  "main": "src/lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
-    "lib/**/*"
+    "src/lib/**/*"
   ],
   "devDependencies": {
-    "@types/jest": "25.1.x",
-    "jest": "25.1.x",
-    "prettier": "1.19.x",
-    "ts-jest": "25.2.x",
-    "ts-node": "8.6.x",
-    "tslint": "6.1.x",
-    "tslint-config-prettier": "1.18.x",
-    "typescript": "3.8.x"
+    "@types/jest": "25.2.x",
+    "@typescript-eslint/eslint-plugin": "3.1.x",
+    "eslint": "6.8.x",
+    "eslint-config-airbnb-base": "14.1.x",
+    "eslint-config-airbnb-typescript": "8.0.x",
+    "eslint-plugin-import": "2.20.x",
+    "eslint-plugin-jest": "^23.13.2",
+    "jest": "26.0.x",
+    "ts-jest": "26.1.x",
+    "ts-node": "8.10.x",
+    "typescript": "3.9.x"
   },
   "scripts": {
-    "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "tslint -p tsconfig.json",
+    "build": "tsc -p tsconfig.json",
+    "format": "prettier --write \"./src/**/*.ts\"",
+    "lint": "eslint \"./src/**/*.ts\" --fix",
     "postversion": "git push && git push --tags",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
-    "test": "jest --config jestconfig.json",
+    "test": "jest --config ./jestconfig.json",
     "version": "npm run format && git add -A src"
   },
   "repository": {
@@ -34,8 +37,12 @@
   },
   "keywords": [
     "TypeScript",
+    "Library",
     "Starter"
   ],
   "author": "Rick Waterman",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/parser": "3.1.x"
+  }
 }
