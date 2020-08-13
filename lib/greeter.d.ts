@@ -1,1 +1,2 @@
-export declare const Greeter: (name: string) => string;
+declare const _default: (name: string) => string;
+export default _default;
