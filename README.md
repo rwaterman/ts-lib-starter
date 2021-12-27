@@ -1,13 +1,13 @@
-# Node10/ES2018 Typescript Lib Starter/Boilerplate
+# Lightweight NodeJS + Typescript Library Starter
 - A customized TS Lib Start Boilerplate TS library with
   - example directory structure (including proper output to a `lib`  directory with JS+source+maps+TS typings)
   - ESLint (not tied to tslint which is now deprecated)
-  - Jest (no Jasmine)
-  - Optimized configuration defaults for Node 10/ES2018.
+  - Jest
+  - Optimized configuration defaults for Node LTS/16.
   - All dev dependencies removed from `lib`
   
 # Inspired By
-Inspired by https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package-44fe7164964c.
+Originally inspired by https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package-44fe7164964c.
   
 Copyright 2020 MIT LICENSE
 
