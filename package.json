@@ -10,8 +10,8 @@
   "devDependencies": {
     "@types/jest": "27.0.x",
     "@types/node": "17.0.x",
-    "@typescript-eslint/parser": "5.8.x",
     "@typescript-eslint/eslint-plugin": "5.8.x",
+    "@typescript-eslint/parser": "5.8.x",
     "eslint": "8.5.x",
     "eslint-config-airbnb-base": "15.0.x",
     "eslint-config-airbnb-typescript": "16.1.x",
@@ -43,6 +43,5 @@
     "Starter"
   ],
   "author": "Rick Waterman",
-  "license": "MIT",
-  "dependencies": {}
+  "license": "MIT"
 }
