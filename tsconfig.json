@@ -1,11 +1,17 @@
 {
   "compilerOptions": {
-    "target": "es2020",
-    "lib": ["es2020"],
-    "module": "commonjs",
+    "target": "ES2024",
+    "lib": ["ES2024"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": ["node"],
     "declaration": true,
+    "declarationMap": true,
     "outDir": "lib",
-    "strict": true
+    "rootDir": "src",
+    "sourceMap": true,
+    "strict": true,
+    "verbatimModuleSyntax": true
   },
   "include": ["./src/**/*.ts"],
   "exclude": ["node_modules"]
