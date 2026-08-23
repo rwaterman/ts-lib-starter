@@ -1,6 +1,9 @@
 {
-  "name": "ts-lib-starter",
+  "name": "@rwaterman/ts-lib-starter",
   "version": "1.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "A minimal ESM library starter for projects written in TypeScript",
   "type": "module",
   "engines": {
